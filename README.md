@@ -8,7 +8,7 @@
 <BR/>
 <BR/>
 <div>
-  <h3>Desktop Preview</h3>
+  <h3>Mobile Preview</h3>
   <img src='Review_Images/Mobile1.PNG' />
   <img src='Review_Images/Mobile2.PNG' />
   <img src='Review_Images/Mobile3.PNG' />
