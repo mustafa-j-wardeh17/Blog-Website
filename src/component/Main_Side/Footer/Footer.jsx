@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='Footer_content'>
-      <p className='footer_text'>@ 2022 GorkCoder - All Rights Reserved.</p>
+      <p className='footer_text'>@ 2023 Kill$witsh - All Rights Reserved.</p>
       <div className='footer_icons_container'>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
