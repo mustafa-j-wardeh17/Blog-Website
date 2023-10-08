@@ -12,6 +12,7 @@
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#preview">Preview</a></li>
     <li><a href="#license">License</a></li>
 </ul>
 
