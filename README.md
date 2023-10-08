@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Responsive Blog README</title>
-</head>
-<body>
+
 
 <h1>Responsive Blog</h1>
 
@@ -84,8 +79,3 @@
 
 <p>This project is licensed under the MIT License - see the <a href="LICENSE.md">LICENSE.md</a> file for details.</p>
 
-</body>
-</html>
-
-</body>
-</html>
