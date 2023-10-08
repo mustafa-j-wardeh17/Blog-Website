@@ -44,7 +44,7 @@
 </ol>
 
 <pre>
-<code>git clone https://github.com/yourusername/responsive-blog.git</code>
+<code>git clone https://github.com/mustafawardeh/Blog-Website</code>
 </pre>
 
 <ol start="2">
