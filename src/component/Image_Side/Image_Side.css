@@ -1,0 +1,196 @@
+.Fixed_container{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+/* Image_Side.css */
+.Image_Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    /* Set the container to cover the entire viewport height */
+    overflow: hidden;
+    /* Hide any content that overflows */
+    z-index: -200;
+    
+}
+
+.main-image {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    /* Hide any image content that overflows */
+    z-index: -10;
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Scale the image to cover the entire container while maintaining aspect ratio */
+}
+
+.image-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.logo{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    margin: 20px 0 0 20px;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+}
+.image-left-content,.image-right-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.image-right-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
+.row_reverse{
+    width: 50%;
+}
+h2,p,span{
+    color: white;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+p,span{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+span{
+    color: red;
+}
+.qrcode{
+    margin: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    .Fixed_container{
+        position: relative;
+        width: 100%;
+        z-index: 5;
+    }
+    
+    /* Image_Side.css */
+    .Image_Container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        /* Set the container to cover the entire viewport height */
+        /* Hide any content that overflows */
+        
+    }
+    
+    .main-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        /* Hide any image content that overflows */
+        z-index: -10;
+    }
+    
+    .cover-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Scale the image to cover the entire container while maintaining aspect ratio */
+    }
+
+    .image-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .logo{
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        margin: 5px;
+        border-radius: 8px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    
+    }
+    .image-left-content,.image-right-content{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .image-right-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: end;
+    }
+    .row_reverse{
+        width: 50%;
+    }
+    h2,p,span{
+        color: white;
+    }
+    
+    h2{
+        text-transform: uppercase;
+        font-size: 26px;
+    }
+    p,span{
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    span{
+        color: red;
+    }
+    .qrcode{
+        margin: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .qrcode img{
+        width: 100%;
+    }
+    
+}

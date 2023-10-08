@@ -1,0 +1,25 @@
+.slide_row_container{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+.slide_row_image_container{
+    width: 50%;
+}
+.slide_row_image_container_src{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide_row_content{
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.slide_row_container:nth-child(even){
+    flex-direction: row-reverse !important ;
+}
+.slide_row_title{
+    font-size: 28px;
+}

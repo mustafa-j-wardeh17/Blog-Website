@@ -1,0 +1,14 @@
+.Footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text{
+    color: black;
+    font-size: 16px;
+}
+
+.footer_icons_container{
+    display:flex;
+    gap: 15px;
+}

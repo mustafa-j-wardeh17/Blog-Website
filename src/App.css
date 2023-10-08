@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+.Container{
+  display: flex;
+  width: 100%;
+}
+.left-content,.right-content{
+  width: 50%;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .left-content, .right-content {
+    width: 100%;
+    overflow: hidden;
+  }
+  .left-content{
+    margin-bottom: 40px;
+  }
+  .Container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .right-content{
+    padding: 10px;
+  }
+}
+ 

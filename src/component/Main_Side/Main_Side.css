@@ -1,0 +1,19 @@
+.Main_Side_Container{
+    margin: 20px;
+    width: 95%;
+}
+
+span{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 350;
+}
+
+h3{
+    font-size: 22px;
+    padding: 10px 0;
+}
