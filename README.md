@@ -2,7 +2,7 @@
 
 <h1>Responsive Blog</h1>
 
-<p>A simple, responsive blog template built with HTML, CSS, and JavaScript.</p>
+<p>A simple, responsive blog template built with React</p>
 
 
 <h2>Table of Contents</h2>
